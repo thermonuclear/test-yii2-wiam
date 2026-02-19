@@ -10,13 +10,13 @@
     127.0.0.1 test-yii2-wiam
 
 клонируем в папку app/test-yii2-wiam проект:
-    git clone https://github.com/test-yii2-wiam
+    git clone https://github.com/thermonuclear/test-yii2-wiam
 
 В папке docker_wiam выполняем команду создания тома для работы postgresql
     docker volume create —-name pgdata1
 
 клонируем в папку docker_wiam конфиг докера:
-    git clone https://github.com/docker_wiam
+    git clone https://github.com/thermonuclear/docker_wiam
 в папке docker_wiam в консоли выполняем:
 	docker-compose up -d
 
